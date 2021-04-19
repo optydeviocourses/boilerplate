@@ -10,9 +10,9 @@
     "postinstall": "husky install"
   },
   "lint-staged": {
-    "src/**/*": ["yarn lint --fix"]
-
-
+    "src/**/*": [
+      "yarn lint --fix"
+    ]
   },
   "dependencies": {
     "next": "10.1.3",
