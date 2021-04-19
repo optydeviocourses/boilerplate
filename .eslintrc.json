@@ -12,7 +12,8 @@
       "eslint:recommended",
       "plugin:react/recommended",
       "plugin:@typescript-eslint/eslint-recommended",
-      "plugin:@typescript-eslint/recommended"
+      "plugin:@typescript-eslint/recommended",
+      "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -29,5 +30,6 @@
     "react-hooks/prop-types":  "off",
     "react/react-in-jsx-scope":  "off",
     "@typescript-eslint/explicit-module-boundary-types":  "off"
+
   }
 }
