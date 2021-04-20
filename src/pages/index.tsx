@@ -4,7 +4,6 @@ import styles from '../../styles/Home.module.css'
 type Props = {
   title: string
 }
-const foo = 'nada'
 
 export default function Home({ title = 'React Avançado:' }: Props) {
   return (
