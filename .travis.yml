@@ -2,6 +2,19 @@ language: node
 node_js:
   - 15
 
+before_install:
+  - sudo apt-get updates
+  - yarn add --dev husky
+  - yarn husky init
+  - yarn add lint-staged --dev
+  - npx husky add .husky/pre-commit "npm test"
+  - yarn add --dev jest @babel/preset-typescript @types/jest
+  - yarn add styled-components
+  - yarn add --dev @types/styled-components babel-plugin-styled-components
+  - yarn add --dev jest-styled-components
+  - yarn add --dev @testing-library/react
+  - yarn add --dev @testing-library/jest-dom
+
 script:
   - yarn test:watch
 
