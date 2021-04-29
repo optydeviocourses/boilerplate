@@ -6,7 +6,6 @@ before_install:
   - sudo apt-get update
   - yarn add --dev husky
   - yarn husky init
-  - yarn add lint-staged --dev
   - npx husky add .husky/pre-commit "npm test"
   - yarn add --dev jest @babel/preset-typescript @types/jest
   - yarn add styled-components
@@ -16,7 +15,7 @@ before_install:
   - yarn add --dev @testing-library/jest-dom
 
 script:
-  - yarn test:watch
+  - yarn test
   - yarn build
   - yarn start
 
