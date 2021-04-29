@@ -17,4 +17,6 @@ before_install:
 
 script:
   - yarn test:watch
+  - yarn build
+  - yarn start
 
