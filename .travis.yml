@@ -3,7 +3,7 @@ node_js:
   - 15
 
 before_install:
-  - sudo apt-get updates
+  - sudo apt-get update
   - yarn add --dev husky
   - yarn husky init
   - yarn add lint-staged --dev
