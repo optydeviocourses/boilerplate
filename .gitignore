@@ -35,3 +35,7 @@ yarn-error.log*
 
 # textos
 *.txt
+
+# sw stuff
+public/sw.js
+public/workbox-*.js
