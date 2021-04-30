@@ -19,7 +19,7 @@ install:
 
 # before_script
 script:
-  - yarn test
+  - yarn test:watch
   - yarn build
 
 # after_sucess
