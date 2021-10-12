@@ -8,7 +8,7 @@
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "all",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint":true
+    "source.fixAll.eslint": true
   },
   "cSpell.words": [
     "Prismic"
