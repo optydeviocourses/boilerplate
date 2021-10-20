@@ -9,12 +9,12 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "terminal.fontFamily": "Fira Code",
+  "terminal.integrated.fontFamily": "Fira Code",
   // "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   // "terminal.integrated.shell.osx": "/opt/homebrew/bin/zsh",
   // "terminal.integrated.shell.linux": "/bin//zsh",
-    "cSpell.words": [
+  "cSpell.words": [
     "Prismic"
   ]
 }
