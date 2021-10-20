@@ -1,14 +1,21 @@
 {
   "window.zoomLevel": 0,
-  "editor.fontSize": 13,
-  "terminal.integrated.fontSize": 13,
+  "editor.tabSize": 2,
+  "editor.fontSize": 12,
+  "terminal.integrated.fontSize": 12,
   "editor.formatOnSave": false,
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "all",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "cSpell.words": [
+  "terminal.fontFamily": "Fira Code",
+  // "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  // "terminal.integrated.shell.osx": "/opt/homebrew/bin/zsh",
+  // "terminal.integrated.shell.linux": "/bin//zsh",
+    "cSpell.words": [
     "Prismic"
   ]
 }
+
